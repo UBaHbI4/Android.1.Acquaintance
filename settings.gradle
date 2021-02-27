@@ -1,3 +1,4 @@
+include ':lesson1_homework1'
 include ':lesson1_classwork1'
 include ':app'
 rootProject.name = "Android.1.Acquaintance"
