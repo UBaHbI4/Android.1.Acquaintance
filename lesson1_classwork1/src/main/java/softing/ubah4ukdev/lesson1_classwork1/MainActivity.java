@@ -1,5 +1,5 @@
 package softing.ubah4ukdev.lesson1_classwork1;
-//Классная работа №1
+//Классная работа №1.
 
 import androidx.appcompat.app.AppCompatActivity;
 
