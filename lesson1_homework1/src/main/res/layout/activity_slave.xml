@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/editText"
+            android:inputType="text"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#F44336"
+            android:textSize="14sp"
+            android:hint="Enter text"
+            android:textColorHint="@color/orange"
+            />
+    <!--    android:text="Text"-->
+        <EditText
+            android:id="@+id/editTextPersonName"
+            android:inputType="textPersonName"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#2196F3"
+            android:textSize="14sp"
+            android:hint="Enter name"/>
+    <!--    android:text="Василий"-->
+
+        <EditText
+            android:id="@+id/editPhone"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#673AB7"
+            android:textSize="14sp"
+            android:hint="Enter phone"/>
+    <!--    android:text="+79039039303"-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editNumber"
+            android:inputType="number"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#009688"
+            android:textSize="14sp"
+            android:hint="Enter number"/>
+    <!--    android:text="125000"-->
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:inputType="textPassword"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#8BC34A"
+            android:textSize="14sp"
+            android:hint="Enter password"/>
+    <!--    android:text="password"-->
+
+        <EditText
+            android:id="@+id/editTextEmailAddress"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FF5722"
+            android:textSize="14sp"
+            android:hint="Enter email"/>
+    </LinearLayout>
+    <!--    android:text="develop@devs.ru"-->
+
+
+
+
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Параметр EMS устанавливает ширину TextView. И когда мы задаем значение параметра ems, ширина TextView
+        становится равной произведению значения этого параметра на ширину английской буквы M (которая принимается за 1ems)"
+        android:textAlignment="textStart"/>
+
+
+</LinearLayout>
